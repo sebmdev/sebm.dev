@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sebm</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on sebm</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 02 Nov 2025 21:22:04 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My first post</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Sun, 02 Nov 2025 21:22:04 +0800</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;h2 id=&#34;introdution&#34;&gt;&#xA;  Introdution&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#introdution&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Hello world!&#xA;I&amp;rsquo;m &lt;em&gt;Sebastian Martinez&lt;/em&gt;!&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff7b72&#34;&gt;SELECT&lt;/span&gt;&lt;span style=&#34;color:#6e7681&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff7b72&#34;&gt;DISTINCT&lt;/span&gt;&lt;span style=&#34;color:#6e7681&#34;&gt; &lt;/span&gt;country,&lt;span style=&#34;color:#6e7681&#34;&gt; &lt;/span&gt;gender&lt;span style=&#34;color:#6e7681&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#6e7681&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#ff7b72&#34;&gt;FROM&lt;/span&gt;&lt;span style=&#34;color:#6e7681&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff7b72&#34;&gt;table&lt;/span&gt;&lt;span style=&#34;color:#6e7681&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#6e7681&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#ff7b72&#34;&gt;GROUP&lt;/span&gt;&lt;span style=&#34;color:#6e7681&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff7b72&#34;&gt;BY&lt;/span&gt;&lt;span style=&#34;color:#6e7681&#34;&gt; &lt;/span&gt;country,&lt;span style=&#34;color:#6e7681&#34;&gt; &lt;/span&gt;gender;&lt;span style=&#34;color:#6e7681&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-ts&#34; data-lang=&#34;ts&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff7b72&#34;&gt;let&lt;/span&gt; item: &lt;span style=&#34;color:#ff7b72&#34;&gt;string&lt;/span&gt; &lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#39;Some value&amp;#39;&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>
