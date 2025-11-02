@@ -7,9 +7,9 @@ defaultcontentlanguage = "en"
 [pagination]
 pagerSize = 20
 
-[services]
-[services.disqus]
-shortname = "yourdiscussshortname"
+# [services]
+# [services.disqus]
+# shortname = "yourdiscussshortname"
 
 [markup.highlight]
 style = "github-dark"
@@ -50,15 +50,16 @@ style = "github-dark"
   weight = 1
   url = "https://github.com/sebmdev"
 
+
 # Menu links
 [[menu.main]]
   name = "Blog"
   weight = 1
-  url  = "posts/"
-[[menu.main]]
-  name = "About"
-  weight = 2
-  url = "about/"
+  url  = "blogz/"
+#[[menu.main]]
+#  name = "About"
+#  weight = 2
+#  url = "about/"
 
 [caches]
   [caches.images]
