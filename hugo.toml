@@ -1,9 +1,8 @@
 baseurl = "http://sebm.dev"
-title = "sebm"
+title = "sebmdev"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
-
 
 [pagination]
 pagerSize = 20
@@ -16,11 +15,11 @@ shortname = "yourdiscussshortname"
 style = "github-dark"
 
 [params]
-  author = "SEBM"
+  author = "Sebastian Martinez"
   info = "Full Stack DevOps and Magician"
-  description = "Sebastian Martinez' personal website"
+  description = "Engineering Blog"
   keywords = "blog,developer,personal"
-  avatarurl = "images/avatar.jpg"
+  avatarURL = "images/avatar.jpg"
   #gravatar = "john.doe@example.com"
 
   faviconSVG = "/img/favicon.svg"
@@ -49,7 +48,7 @@ style = "github-dark"
   name = "Github"
   icon = "fa-brands fa-github fa-2x"
   weight = 1
-  url = "https://github.com/BargainBender"
+  url = "https://github.com/sebmdev"
 
 # Menu links
 [[menu.main]]
