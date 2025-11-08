@@ -1,6 +1,6 @@
 +++
 date = '2025-11-08T19:59:38+08:00'
-draft = true
+draft = false
 title = "How I Reduced a 10-Second Load Time to Under 1 Second"
 subtitle = "Optimizing an Employee Directory for Speed, Accessibility, and Empathy"
 author = "Sebastian Martinez"
