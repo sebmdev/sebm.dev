@@ -183,33 +183,3 @@ This optimization started out of personal frustration while debugging, but it tu
 
 Not everyone using your app has fiber internet or unlimited data.  
 Sometimes, shaving off a few megabytes isn’t just a technical win — it’s a way to make software more inclusive.
-
-{{< script >}}
-(function loadMermaid() {
-  const script = document.createElement('script');
-  script.src = 'https://cdn.jsdelivr.net/npm/mermaid@11.12.1/+esm';
-  script.async = true;
-  script.onload = () => {
-    console.log('Mermaid.js loaded successfully.');
-    if (window.mermaid) {
-      mermaid.initialize({ startOnLoad: true });
-    }
-  };
-  script.onerror = () => console.error('Failed to load Mermaid.js.');
-  document.body.appendChild(script);
-})();
-
-(function loadMermaid() {
-  const script = document.createElement('script');
-  script.src = 'https://cdn.jsdelivr.net/npm/echarts@6.0.0/dist/echarts.min.js';
-  script.async = true;
-  script.onload = () => {
-    console.log('Mermaid.js loaded successfully.');
-    if (window.mermaid) {
-      mermaid.initialize({ startOnLoad: true });
-    }
-  };
-  script.onerror = () => console.error('Failed to load echarts.js.');
-  document.body.appendChild(script);
-})();
-{{< /script >}}
