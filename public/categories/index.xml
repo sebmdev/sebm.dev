@@ -5,11 +5,11 @@
         <description>Categories - Category - Sebastian Martinez</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>sgmartinezlp@gmail.com (Sebastian Martinez)</managingEditor>
             <webMaster>sgmartinezlp@gmail.com (Sebastian Martinez)</webMaster><lastBuildDate>Sat, 08 Nov 2025 19:59:38 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/categories/" rel="self" type="application/rss+xml" /><item>
-    <title>Optimization</title>
-    <link>http://localhost:1313/categories/optimization/</link>
+    <title>Backend</title>
+    <link>http://localhost:1313/categories/backend/</link>
     <pubDate>Sat, 08 Nov 2025 19:59:38 &#43;0800</pubDate>
     <author>sgmartinezlp@gmail.com (Sebastian Martinez)</author>
-    <guid>http://localhost:1313/categories/optimization/</guid>
+    <guid>http://localhost:1313/categories/backend/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

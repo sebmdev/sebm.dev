@@ -10,13 +10,32 @@
     <pubDate>Sat, 08 Nov 2025 19:59:38 &#43;0800</pubDate>
     <author>sgmartinezlp@gmail.com (Sebastian Martinez)</author>
     <guid>http://localhost:1313/how-i-reduced-a-10-second-load-time-to-under-1-second/</guid>
-    <description><![CDATA[<p>#optimization</p>
+    <description><![CDATA[<blockquote>
+<p>Important: This is a draft for testing the blog. Will actually fill in the details at a later date.</p></blockquote>
+<div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
+    <div class="code-header language-html">
+        <span class="code-title"><i class="arrow fas fa-angle-right fa-fw" aria-hidden="true"></i></span>
+        <span class="ellipses"><i class="fas fa-ellipsis-h fa-fw" aria-hidden="true"></i></span>
+        <span class="copy" title="Copy to clipboard"><i class="far fa-copy fa-fw" aria-hidden="true"></i></span>
+    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">section</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;main&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="p">&lt;</span><span class="nt">h1</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;title&#34;</span><span class="p">&gt;</span>{{ .Title }}<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        {{ range .Pages }}
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            {{ .Render &#34;summary&#34;}}
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        {{ end }}
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">section</span><span class="p">&gt;</span></span></span></code></pre></div></div>
+
 <h2 id="-background">🧩 Background</h2>
 <p>While working on a feature that involved loading our company’s internal <strong>Employee Directory</strong>, I noticed something frustrating:<br>
-every refresh took about <strong>10 seconds</strong> — and that was on a fast connection.</p>
-<p>During debugging, I realized it wasn’t just my local machine struggling.<br>
-The API was returning roughly <strong>5 MB of data</strong> per request, and every load pulled <strong>every single employee record</strong> with redundant nested information.</p>
-<p>For users accessing the system from the <strong>province</strong>, where connectivity can be limited and data costs are higher, this wasn’t just inconvenient — it was <strong>unfairly inaccessible</strong>.</p>]]></description>
+every refresh took about <strong>10 seconds</strong> — and that was on a fast connection.</p>]]></description>
 </item>
 </channel>
 </rss>
