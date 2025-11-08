@@ -8,30 +8,6 @@ tags = ["optimization", "performance", "case-study"]
 categories = ["backend"]
 +++
 
-{{< admonition type=info title="Important notice" open=true >}}
-This is a draft for testing the blog. Will actually fill in the details at a later date.
-{{< /admonition >}}
-
-{{< mermaid >}}
-graph LR;
-    A[Hard edge] -->|Link text| B(Round edge)
-    B --> C{Decision}
-    C -->|One| D[Result one]
-    C -->|Two| E[Result two]
-{{< /mermaid >}}
-
-Inline Formula: {{< raw >}}\(\mathbf{E}=\sum_{i} \mathbf{E}_{i}=\mathbf{E}_{1}+\mathbf{E}_{2}+\mathbf{E}_{3}+\cdots\){{< /raw >}}
-
-Block Formula:
-
-{{< raw >}}
-\[ a=b+c \\ d+e=f \]
-{{< /raw >}}
-
-Raw content using Markdown syntax: {{< raw >}}**Hello**{{< /raw >}}
-
-I messaged {{< person url="https://sebm.dev" name="Sebastian Martinez" text="author of this blog" >}} for ideas about...
-
 ## 🧩 Background
 
 While working on a feature that involved loading our company’s internal **Employee Directory**, I noticed something frustrating:  
@@ -45,6 +21,11 @@ For users accessing the system from the **province**, where connectivity can be 
 So I decided to do something about it.
 
 ---
+
+
+{{< admonition type=info title="Important notice" open=true >}}
+This is a draft for testing the blog. Will actually fill in the details at a later date.
+{{< /admonition >}}
 
 ## 🧠 The Root Cause
 
@@ -89,101 +70,6 @@ After deploying the change and running benchmarks:
 | Load Time | ~10 seconds | **0.17 seconds** |
 | Response Size | ~5 MB | **300 KB** |
 | Improvement | — | **98% faster**, **94% smaller payload** |
-
-{{< echarts >}}
-
-{
-  "title": {
-    "text": "Employee Directory Load Time Optimization",
-    "left": "center"
-  },
-  "tooltip": {
-    "trigger": "axis",
-    "axisPointer": { "type": "shadow" },
-    "formatter": "{b0}: {c0}s"
-  },
-  "xAxis": {
-    "type": "category",
-    "data": ["Before Optimization", "After Optimization"]
-  },
-  "yAxis": {
-    "type": "value",
-    "name": "Load Time (seconds)",
-    "min": 0
-  },
-  "series": [
-    {
-      "name": "Load Time (s)",
-      "type": "bar",
-      "data": [
-        {
-          "value": 10,
-          "itemStyle": { "color": "#e57373" }
-        },
-        {
-          "value": 0.17,
-          "itemStyle": { "color": "#81c784" }
-        }
-      ],
-      "label": {
-        "show": true,
-        "position": "top",
-        "formatter": "{c}s"
-      },
-      "barWidth": "40%"
-    }
-  ]
-}
-
-
-{{< /echarts >}}
-
-{{< echarts >}}
-{
-  "title": {
-    "text": "Employee Directory Response Size Reduction",
-    "left": "center"
-  },
-  "tooltip": {
-    "trigger": "axis",
-    "axisPointer": { "type": "shadow" },
-    "formatter": "{b0}: {c0} KB"
-  },
-  "xAxis": {
-    "type": "category",
-    "data": ["Before Optimization", "After Optimization"]
-  },
-  "yAxis": {
-    "type": "value",
-    "name": "Response Size (KB)",
-    "min": 0
-  },
-  "series": [
-    {
-      "name": "Response Size (KB)",
-      "type": "bar",
-      "data": [
-        {
-          "value": 5000,
-          "itemStyle": { "color": "#64b5f6" }
-        },
-        {
-          "value": 300,
-          "itemStyle": { "color": "#4db6ac" }
-        }
-      ],
-      "label": {
-        "show": true,
-        "position": "top",
-        "formatter": "{c} KB"
-      },
-      "barWidth": "40%"
-    }
-  ]
-}
-
-{{< /echarts >}}
-
 
 Even on a **mobile hotspot**, the directory now loads almost instantly.
 
