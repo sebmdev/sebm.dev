@@ -81,6 +81,100 @@ After deploying the change and running benchmarks:
 
 Even on a **mobile hotspot**, the directory now loads almost instantly.
 
+{{< echarts >}}
+
+{
+  "title": {
+    "text": "Employee Directory Load Time Optimization",
+    "left": "center"
+  },
+  "tooltip": {
+    "trigger": "axis",
+    "axisPointer": { "type": "shadow" },
+    "formatter": "{b0}: {c0}s"
+  },
+  "xAxis": {
+    "type": "category",
+    "data": ["Before Optimization", "After Optimization"]
+  },
+  "yAxis": {
+    "type": "value",
+    "name": "Load Time (seconds)",
+    "min": 0
+  },
+  "series": [
+    {
+      "name": "Load Time (s)",
+      "type": "bar",
+      "data": [
+        {
+          "value": 10,
+          "itemStyle": { "color": "#e57373" }
+        },
+        {
+          "value": 0.17,
+          "itemStyle": { "color": "#81c784" }
+        }
+      ],
+      "label": {
+        "show": true,
+        "position": "top",
+        "formatter": "{c}s"
+      },
+      "barWidth": "40%"
+    }
+  ]
+}
+
+
+{{< /echarts >}}
+
+{{< echarts >}}
+{
+  "title": {
+    "text": "Employee Directory Response Size Reduction",
+    "left": "center"
+  },
+  "tooltip": {
+    "trigger": "axis",
+    "axisPointer": { "type": "shadow" },
+    "formatter": "{b0}: {c0} KB"
+  },
+  "xAxis": {
+    "type": "category",
+    "data": ["Before Optimization", "After Optimization"]
+  },
+  "yAxis": {
+    "type": "value",
+    "name": "Response Size (KB)",
+    "min": 0
+  },
+  "series": [
+    {
+      "name": "Response Size (KB)",
+      "type": "bar",
+      "data": [
+        {
+          "value": 5000,
+          "itemStyle": { "color": "#64b5f6" }
+        },
+        {
+          "value": 300,
+          "itemStyle": { "color": "#4db6ac" }
+        }
+      ],
+      "label": {
+        "show": true,
+        "position": "top",
+        "formatter": "{c} KB"
+      },
+      "barWidth": "40%"
+    }
+  ]
+}
+
+{{< /echarts >}}
+
 ---
 
 ## 💬 Reflection
@@ -89,3 +183,33 @@ This optimization started out of personal frustration while debugging, but it tu
 
 Not everyone using your app has fiber internet or unlimited data.  
 Sometimes, shaving off a few megabytes isn’t just a technical win — it’s a way to make software more inclusive.
+
+{{< script >}}
+(function loadMermaid() {
+  const script = document.createElement('script');
+  script.src = 'https://cdn.jsdelivr.net/npm/mermaid@11.12.1/+esm';
+  script.async = true;
+  script.onload = () => {
+    console.log('Mermaid.js loaded successfully.');
+    if (window.mermaid) {
+      mermaid.initialize({ startOnLoad: true });
+    }
+  };
+  script.onerror = () => console.error('Failed to load Mermaid.js.');
+  document.body.appendChild(script);
+})();
+
+(function loadMermaid() {
+  const script = document.createElement('script');
+  script.src = 'https://cdn.jsdelivr.net/npm/echarts@6.0.0/dist/echarts.min.js';
+  script.async = true;
+  script.onload = () => {
+    console.log('Mermaid.js loaded successfully.');
+    if (window.mermaid) {
+      mermaid.initialize({ startOnLoad: true });
+    }
+  };
+  script.onerror = () => console.error('Failed to load echarts.js.');
+  document.body.appendChild(script);
+})();
+{{< /script >}}
