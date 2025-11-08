@@ -7,6 +7,7 @@ author = "Sebastian Martinez"
 tags = ["optimization", "performance", "case-study"]
 categories = ["backend"]
 +++
+> Important: This is a draft for testing the blog. Will actually fill in the details at a later date.
 ## 🧩 Background
 
 While working on a feature that involved loading our company’s internal **Employee Directory**, I noticed something frustrating:  
