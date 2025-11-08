@@ -27,6 +27,14 @@ So I decided to do something about it.
 This is a draft for testing the blog. Will actually fill in the details at a later date.
 {{< /admonition >}}
 
+{{< mermaid >}}
+graph LR;
+    A[Hard edge] -->|Link text| B(Round edge)
+    B --> C{Decision}
+    C -->|One| D[Result one]
+    C -->|Two| E[Result two]
+{{< /mermaid >}}
+
 ## 🧠 The Root Cause
 
 After tracing the calls, I found that the backend endpoint was:
